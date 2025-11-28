@@ -13,4 +13,7 @@ interface RepositoriSiswa{
 
 class OfflineRepositoriSiswa(
     private val siswaDao: SiswaDao
-)
+): RepositoriSiswa{
+    override fun getAllSiswaStream(): Flow<List<Siswa>> = siswaDao.getAllSiswa()
+    
+}
