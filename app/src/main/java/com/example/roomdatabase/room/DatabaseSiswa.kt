@@ -10,5 +10,7 @@ abstract class DatabaseSiswa : RoomDatabase(){
 
     abstract fun SiswaDao() : SiswaDao
 
+    companion object {
 
+    }
 }
