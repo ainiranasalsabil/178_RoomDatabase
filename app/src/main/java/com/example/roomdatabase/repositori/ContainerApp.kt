@@ -15,3 +15,7 @@ class ContainerDataApp(private val context : Context):
             siswaDao = DatabaseSiswa.getDatabase(context).SiswaDao())
     }
 }
+
+class AplikasiSiswa : Application() {
+
+}
