@@ -5,3 +5,6 @@ import com.example.roomdatabase.room.SiswaDao
 import kotlinx.coroutines.flow.Flow
 
 interface RepositoriSiswa{
+
+    fun getAllSiswaStream(): Flow<List<Siswa>>
+
