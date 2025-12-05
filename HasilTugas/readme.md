@@ -1,0 +1,7 @@
+![Home](HomePage.png),
+![create siswa](CreateData.png),
+![setelah cteate siswa](AfterCreate.png),
+![detail siswa](Detail.png),
+![update siswa](Update.png),
+![delete](Delete.png),
+![Setelah detele](AfterDelete.png),
