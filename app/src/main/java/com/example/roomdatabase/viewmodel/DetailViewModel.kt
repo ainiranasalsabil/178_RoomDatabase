@@ -5,6 +5,7 @@ import com.example.roomdatabase.repositori.RepositoriSiswa
 import com.example.roomdatabase.view.route.DestinasiDetailSiswa
 import com.example.roomdatabase.viewmodel.DetailSiswa
 import com.example.roomdatabase.viewmodel.toDetailSiswa
+import com.example.roomdatabase.viewmodel.toSiswa
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.filterNotNull
