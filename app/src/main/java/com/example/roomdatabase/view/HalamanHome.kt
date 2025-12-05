@@ -1,5 +1,6 @@
 package com.example.roomdatabase.view
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -98,6 +99,7 @@ fun BodyHome(
 @Composable
 fun ListSiswa(
     itemSiswa: List<Siswa>,
+    onSiswaClick: (Siswa) -> Unit,
     modifier: Modifier = Modifier
 ) {
     LazyColumn(modifier = modifier) {
@@ -107,10 +109,9 @@ fun ListSiswa(
         ) { person ->
             DataSiswa(
                 siswa = person,
-                modifier = Modifier.padding(
-                    dimensionResource(id = R.dimen.padding_small)
-                )
-            )
+                modifier = Modifier
+                    .padding(dimensionResource(id = R.dimen.padding_small))
+                   
         }
     }
 }
